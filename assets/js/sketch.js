@@ -2,13 +2,14 @@
 // URL restrictions
 const key = 'pk.eyJ1IjoieXV0YTAiLCJhIjoiY2xkeDdxMGNnMGVwazNzcGtmNWxsYnpqbyJ9.qXOupweX0QQDrH27B02S9g';
 
+
 const options = {
   lat: 35,
   lng: 135,
   zoom: 4.5,
   pitch: 40,
-  style: 'mapbox://styles/mapbox/dark-v9',
-};
+  // style: 'mapbox://styles/mapbox/dark-v9',
+}
 
 const mappa = new Mappa('MapboxGL', key);
 let myMap;
