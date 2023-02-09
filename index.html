@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>TRANSFER MARKET in Japan</title>
+		<link rel="preconnect" href="//fonts.googleapis.com">
+		<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+		<link href="//fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet">
+		<link href="//api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wrap">
+			<div id="canvasContainer"></div>
+			<div class="info">
+				<span class="toggle"></span>
+				<div class="info__txt">
+					<p>出典：<a href="https://www.jleague.jp/special/transfer/" target="_blank">Jリーグ 2023シーズン 移籍情報</a></p>
+					<p>※2023/02/05 更新</p>
+					<p>※情報は正確性を保証するものではありません</p>
+				</div>
+				<div class="info__content">
+					<dl>
+						<dt>新加入</dt>
+						<dd>通常の移籍や新規契約による加入</dd>
+					</dl>
+					<dl>
+						<dt>期限付き</dt>
+						<dd>期限付きの移籍</dd>
+					</dl>
+					<dl>
+						<dt>完全移籍</dt>
+						<dd>期限付き移籍から、そのまま期限付き移籍先へ完全移籍</dd>
+					</dl>
+					<dl>
+						<dt>復帰</dt>
+						<dd>期限付き移籍先から期限付き移籍元への復帰</dd>
+					</dl>
+					<dl>
+						<dt>トップ昇格</dt>
+						<dd>アカデミー所属選手のトップチームへの昇格</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+		<script src="//api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/mappa-mundi/dist/mappa.min.js"></script>
+		<script src="assets/js/sketch.js"></script>
+	</body>
+</html>
