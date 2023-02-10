@@ -8,7 +8,7 @@ const options = {
   lng: 135,
   zoom: 4.5,
   pitch: 40,
-  // style: 'mapbox://styles/mapbox/dark-v9',
+  style: 'mapbox://styles/yuta0/cldybz2qd000e01nswag5hy9y',
 }
 
 const mappa = new Mappa('MapboxGL', key);
