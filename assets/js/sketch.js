@@ -1,5 +1,6 @@
 // URL restrictions
-const key = ${{ secrets.API_KEY }};
+const key =
+  "pk.eyJ1IjoieXV0YTAiLCJhIjoiY2xkeDdxMGNnMGVwazNzcGtmNWxsYnpqbyJ9.qXOupweX0QQDrH27B02S9g";
 
 const options = {
   lat: 35,
